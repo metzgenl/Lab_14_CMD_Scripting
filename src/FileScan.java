@@ -15,7 +15,7 @@ public class FileScan {
         Path target;
 
         if (args.length > 0) {
-            // cmd line argument as the file name
+            // cmd line argument as the file name. if parameter is provided
             target = Paths.get(args[0]);
         } else {
             // JFileChooser to select a file
